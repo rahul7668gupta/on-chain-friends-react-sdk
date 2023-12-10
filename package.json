@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@airstack/airstack-react": "^0.6.1",
-    "graphql": "^16.8.1"
+    "graphql": "^16.8.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.43",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2"
   }
 }

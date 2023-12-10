@@ -1,13 +1,11 @@
-import { fetchOnChainGraphData, fetchNftDetails, fetchPoapEventDetails } from "./src/fetchData.js";
-import { transformData, calculatingScore, createAddressMap } from "./src/transform.js";
-import airstack from "@airstack/airstack-react";
-
-export {
-  fetchNftDetails,
-  fetchPoapEventDetails,
-  fetchOnChainGraphData,
-  transformData,
-  calculatingScore,
-  createAddressMap,
-  airstack
-}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createAddressMap = exports.calculatingScore = exports.transformData = exports.fetchOnChainGraphData = exports.fetchPoapEventDetails = exports.fetchNftDetails = void 0;
+var fetchData_js_1 = require("./src/fetchData.js");
+Object.defineProperty(exports, "fetchOnChainGraphData", { enumerable: true, get: function () { return fetchData_js_1.fetchOnChainGraphData; } });
+Object.defineProperty(exports, "fetchNftDetails", { enumerable: true, get: function () { return fetchData_js_1.fetchNftDetails; } });
+Object.defineProperty(exports, "fetchPoapEventDetails", { enumerable: true, get: function () { return fetchData_js_1.fetchPoapEventDetails; } });
+var transform_js_1 = require("./src/transform.js");
+Object.defineProperty(exports, "transformData", { enumerable: true, get: function () { return transform_js_1.transformData; } });
+Object.defineProperty(exports, "calculatingScore", { enumerable: true, get: function () { return transform_js_1.calculatingScore; } });
+Object.defineProperty(exports, "createAddressMap", { enumerable: true, get: function () { return transform_js_1.createAddressMap; } });
